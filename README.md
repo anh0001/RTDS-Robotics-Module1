@@ -1,6 +1,6 @@
-# Project Title
+# RTDS GUI & Control (Robotics Module 1)
 
-Welcome to the GitHub repository for our [Project Name], part of the "Pemrograman Sistem Mekatronika" course. This repository contains all the necessary files and documentation for your project.
+Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1), part of the "Pemrograman Sistem Mekatronika" course. This repository contains all the necessary files and documentation for your project.
 
 ## Team Members
 
@@ -67,14 +67,17 @@ This repository is organized into several folders to ensure a clear and manageab
     - When ready, submit a pull request to the main project repository for review.
 
 ## Contributing
-    - **Branching in Your Fork**: Create a new branch for each feature or fix in your fork.
-    - **Commit Messages**: Write clear, concise, and descriptive commit messages.
-    - **Pull Requests**: When you've completed your feature or fix, submit a pull request from your fork to the main project repository. Include a clear description of the changes and the purpose of the update.
+
+- **Branching in Your Fork**: Create a new branch for each feature or fix in your fork.
+- **Commit Messages**: Write clear, concise, and descriptive commit messages.
+- **Pull Requests**: When you've completed your feature or fix, submit a pull request from your fork to the main project repository. Include a clear description of the changes and the purpose of the update.
 
 ## Issue Tracking
-    - **Using GitHub Issues**: For tracking and managing tasks, bugs, and feature requests, use GitHub Issues within your forked repository.
-    - **Reporting to Main Repository**: When an issue is confirmed and relevant to the main project, report it via a new issue on the main repository's GitHub Issues page, referencing your findings.
+
+- **Using GitHub Issues**: For tracking and managing tasks, bugs, and feature requests, use GitHub Issues within your forked repository.
+- **Reporting to Main Repository**: When an issue is confirmed and relevant to the main project, report it via a new issue on the main repository's GitHub Issues page, referencing your findings.
 
 ## Contact
-Instructor: Anhar Risnumawan and Adytia Darmawan
-Email: anhar@pens.ac.id and adyt@pens.ac.id
+
+- Instructor: Anhar Risnumawan and Adytia Darmawan
+- Email: anhar@pens.ac.id and adyt@pens.ac.id

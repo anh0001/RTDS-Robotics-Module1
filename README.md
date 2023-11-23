@@ -4,9 +4,8 @@ Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1),
 
 ## Team Members
 
-- Member 1: [Name] - [Student ID]
-- Member 2: [Name] - [Student ID]
-- ... (Add all team members with their IDs)
+- Member 1: Yogi Dwi Prasetyo - 4121600033
+- Member 2: Muhammad Reza Pratama - 4121600047
 
 ## Repository Structure
 

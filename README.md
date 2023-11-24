@@ -7,7 +7,6 @@ Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1),
 - Kelas B Meka 2023
   - Member 1: Yogi Dwi Prasetyo - 4121600033
   - Member 2: Muhammad Reza Pratama - 4121600047
-  - Member 3:
 
 ## Repository Structure
 

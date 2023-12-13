@@ -2,6 +2,7 @@
 
 import serial
 import tkinter as tk
+from tkinter import ttk
 
 # Inisialisasi koneksi serial dengan Arduino
 ser = serial.Serial('COM10', 115200)  
@@ -18,15 +19,21 @@ def Gerakan_2():
     send_command('B')
 
 def Gerakan_3():
-    send_command('c')
+    send_command('C')
+
+def Gerakan_4():
+    send_command('D')
+
+def Reset():
+    send_command('R')
 
 
 # Membuat GUI
 root = tk.Tk()
 root.configure(bg="blanchedalmond")
-root.geometry("300x300")
+root.geometry("250x200")
 root.resizable(False,False)
-root.title("About")
+root.title("Gambar RTDS")
 
 # Function to display new window
 def show_new_window():
@@ -57,17 +64,37 @@ def show_new_window():
     close_button = ttk.Button(new_window, text="Quit", command=new_window.destroy)
     close_button.pack(pady=10)
 
-on_button = tk.Button(root, text="–", command=Gerakan_1)
-on_button.grid(row=0, column=0, padx=10,pady=10)
+# Frame input
+input_frame = ttk.Frame(root)
+# Penempatan Grid, Pack, Place
+input_frame.pack(padx=0, pady=0, expand=True)
 
-on_button = tk.Button(root, text="◡", command=Gerakan_2)
-on_button.grid(row=1, column=0, padx=10,pady=10)
+SERVO_1 = tk.StringVar()
+SERVO_2 = tk.StringVar()
 
-on_button = tk.Button(root, text="▭", command=Gerakan_3)
-on_button.grid(row=2, column=0, padx=10,pady=10)
+# Buttons for controlling the arm
+input_button = ttk.Button(input_frame, text="-", command=Gerakan_1)
+input_button.pack(padx=10, pady=0, fill="x", expand=True)
 
-quit_button = tk.Button (root, text="Quit", command=root.quit)
-quit_button.grid(row=4, column=2, padx=10,pady=10)
+input_button = ttk.Button(input_frame, text="➕", command=Gerakan_2)
+input_button.pack(padx=10, pady=0, fill="x", expand=True)
+
+input_button = ttk.Button(input_frame, text="▭", command=Gerakan_3)
+input_button.pack(padx=10, pady=0, fill="x", expand=True)
+
+input_button = ttk.Button(input_frame, text="◡", command=Gerakan_4)
+input_button.pack(padx=10, pady=0, fill="x", expand=True)
+
+input_button = ttk.Button(input_frame, text="Reset.",command=Reset)
+input_button.pack(padx=10, pady=0, fill="x", expand=True)
+
+# Button to show information about the GUI
+input_button = ttk.Button(input_frame, text="About", command=show_new_window)
+input_button.pack(padx=20, pady=5, fill="x", expand=True)
+
+# Button for close the GUI
+input_button = ttk.Button(input_frame, text="Quit", command=root.quit)
+input_button.pack(padx=20, pady=5, fill="x", expand=True)
 
 root.mainloop()
 

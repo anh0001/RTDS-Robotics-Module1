@@ -4,7 +4,7 @@ Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1),
 
 ## Team Members
 
-- Kelas B Meka 2023
+- Kelas A Meka 2023
   - Member 1: Bagas Dwi Atmaja Dwi Fauzan - 4121600005
   - Member 2: Thufail bariqlana Audra - 4121600028
 

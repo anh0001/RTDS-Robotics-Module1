@@ -4,9 +4,9 @@ Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1),
 
 ## Team Members
 
-- Kelas B Meka 2023
-  - Member 1: Yogi Dwi Prasetyo - 4121600033
-  - Member 2: Muhammad Reza Pratama - 4121600047
+- Kelas A Meka 2023
+  - Member 1: Bagas Dwi Atmaja Achmad Fauzan - 4121600005
+  - Member 2: Thufail bariqlana Audra - 4121600028
 
 ## Repository Structure
 
@@ -30,7 +30,12 @@ This repository is organized into several folders to ensure a clear and manageab
     - `IntegrationTests/`: For testing the integration of modules.
 
 - **`lib/` (Libraries)**
-  - External libraries or dependencies.
+  - GUI
+    1. import serial
+    2. import tkinter as tk
+    3. from tkinter import ttk
+  - Kinematik
+    1. #include<math.h>
 
 - **`tools/` (Utility Tools)**
   - Utility scripts and tools.

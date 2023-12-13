@@ -30,7 +30,12 @@ This repository is organized into several folders to ensure a clear and manageab
     - `IntegrationTests/`: For testing the integration of modules.
 
 - **`lib/` (Libraries)**
-  - External libraries or dependencies.
+  - GUI
+    1. import serial
+    2. import tkinter as tk
+    3. from tkinter import ttk
+  - Kinematik
+    1. #include<math.h>
 
 - **`tools/` (Utility Tools)**
   - Utility scripts and tools.

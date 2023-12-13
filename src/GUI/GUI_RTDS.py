@@ -4,14 +4,14 @@ import serial
 import tkinter as tk
 from tkinter import ttk
 
-# Inisialisasi koneksi serial dengan Arduino
+# Inisialisasi koneksi serial dengan RTDS
 ser = serial.Serial('COM10', 115200)  
 
-# Fungsi untuk mengirim perintah ke Arduino
+# Fungsi untuk mengirim perintah ke RTDS
 def send_command(command):
     ser.write(command.encode())
 
-# Membuat fungsi untuk menyalakan LED
+# Membuat fungsi untuk mengirim perintah
 def Gerakan_1():
     send_command('A')
 

@@ -3,7 +3,10 @@
 Welcome to the GitHub repository for our RTDS GUI & Control (Robotics Module 1), part of the "Pemrograman Sistem Mekatronika" course. This repository contains all the necessary files and documentation for your project.
 
 ## Team Members
-
+-Kelas A Meka 2023
+  - Member 1: Bagas Dwi Atmaja Achmad Fauzan - 4121600005
+  - Member 2: Thufail bariqlana Audra - 4121600028
+    
 - Kelas B Meka 2023
   - Member 1: Yogi Dwi Prasetyo - 4121600033
   - Member 2: Muhammad Reza Pratama - 4121600047

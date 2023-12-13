@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Users/User/Documents"
+		},
+		{
+			"name": "Sensor Arus",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/Sensor Arus"
+		},
+		{
+			"name": "NTC Sensor suhu",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/NTC Sensor suhu"
+		},
+		{
+			"name": "Prak. Motor DC",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/Prak. Motor DC"
+		},
+		{
+			"name": "Stepper Motor Wave Drive",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/Stepper Motor Wave Drive"
+		},
+		{
+			"name": "Microstepping_Stepper_Mode_Circular",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/Microstepping_Stepper_Mode_Circular"
+		},
+		{
+			"name": "BLDC",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/BLDC"
+		},
+		{
+			"name": "DDMR_PID",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/DDMR_PID"
+		},
+		{
+			"name": "DDMR_PID_2",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/DDMR_PID_2"
+		},
+		{
+			"name": "DDMR_PID_Kecepatan",
+			"path": "../../../../../../Users/User/Documents/PlatformIO/Projects/DDMR_PID_Kecepatan"
+		}
+	],
+	"settings": {}
+}

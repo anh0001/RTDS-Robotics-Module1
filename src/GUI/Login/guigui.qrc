@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Facebook-icon.png</file>
+    <file>FontAwesome-Brands-Square-Instagram-icon.png</file>
+    <file>FontAwesome-Brands-Telegram-icon.png</file>
+    <file>twitter-icon.png</file>
+    <file>Actions-media-playback-start-icon.png</file>
+    <file>Actions-system-run-icon.png</file>
+    <file>Arrow-Back-icon.png</file>
+    <file>Arrow-Next-icon.png</file>
+    <file>FontAwesome-Regular-Circle-Stop-icon.png</file>
+    <file>guigui.qrc</file>
+    <file>Home-icon.png</file>
+    <file>menu-icon.png</file>
+    <file>process-stop-icon.png</file>
+    <file>Robot Arm for Assembling scene, Gregor Kopka.jpg</file>
+  </qresource>
+</RCC>

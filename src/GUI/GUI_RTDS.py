@@ -44,7 +44,7 @@ def show_new_window():
     label_text = """
     The purpose of this GUI is to control the RTDS arm, allowing users to generate specific images based on their choices.
 
-    *Kinematics of RTDS by Bagas Fauzan Dwi Atmaja*
+    *Kinematics of RTDS by Bagas Dwi Atmaja Achmad Fauzan*
     This GUI is designed to interact with the Kinematics of the RTDS system, which is developed by Bagas Fauzan Dwi Atmaja. 
     The Kinematics component is responsible for defining the motion and positioning of the RTDS arm.
 
